@@ -2,11 +2,13 @@
 	"info": {
 		"_postman_id": "5a0c7c27-e52b-4c7d-992d-f4bdf2a60aeb",
 		"name": "1.0.0",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "817031-5a0c7c27-e52b-4c7d-992d-f4bdf2a60aeb"
 	},
 	"item": [
 		{
 			"name": "get",
+			"id": "89815357-245f-40a2-863b-a300aa3dcf3d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -29,7 +31,7 @@
 					"query": [
 						{
 							"key": "key",
-							"value": "1234",
+							"value": "12342323232",
 							"disabled": true
 						}
 					]
@@ -37,14 +39,11 @@
 			},
 			"response": [
 				{
+					"id": "b69d73b1-8339-4831-abcc-635a58b6ba6e",
 					"name": "Default",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{url}}/get/{{key}}",
 							"host": [
@@ -57,7 +56,7 @@
 						}
 					},
 					"code": 200,
-					"_postman_previewlanguage": null,
+					"_postman_previewlanguage": "Text",
 					"header": null,
 					"cookie": [],
 					"body": "hello"
@@ -66,6 +65,7 @@
 		},
 		{
 			"name": "get1",
+			"id": "26a9d2c6-0ef1-4a58-b3ec-4342936b5925",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -88,14 +88,11 @@
 			},
 			"response": [
 				{
+					"id": "662458a1-46c2-46c7-8ccf-e28b56ca2fe9",
 					"name": "Default",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "{{url}}/get1",
 							"host": [
@@ -107,13 +104,12 @@
 						}
 					},
 					"code": 200,
-					"_postman_previewlanguage": null,
+					"_postman_previewlanguage": "Text",
 					"header": null,
 					"cookie": [],
 					"body": "bye"
 				}
 			]
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }

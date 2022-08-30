@@ -11,6 +11,7 @@ files[] = {"id":"5a0c7c27-e52b-4c7d-992d-f4bdf2a60aeb","path":"1.0.0.postman_col
 [relations.apiDefinition]
 rootDirectory = Folder 1/Specfication
 files[] = {"path":"7MB schema copy 2.json","metaData":{}}
+files[] = {"path":"New.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
