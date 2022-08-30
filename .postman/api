@@ -1,0 +1,14 @@
+id = 3db9ce49-223b-4446-8bde-c17bdf8e3dca
+
+[relations]
+
+[relations.collections]
+rootDirectory = Folder 1/Collection
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = Folder 1/Specfication
+
+[relations.apiDefinition.metaData]
+type = openapi:3
