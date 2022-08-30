@@ -4,12 +4,21 @@ id = 3db9ce49-223b-4446-8bde-c17bdf8e3dca
 
 [relations.collections]
 rootDirectory = Folder 1/Collection
+<<<<<<< Updated upstream
+=======
+files[] = {"id":"ce14d6fc-779b-4670-98ac-1cfc87335ab0","path":"Collection 1_817031-ce14d6fc-779b-4670-98ac-1cfc87335ab0.json","metaData":{}}
+files[] = {"id":"4127f301-7e7b-45b0-804e-872508b34bd4","path":"Environments/API Dev Platform.postman_globals.json","metaData":{}}
+files[] = {"id":"3f8172ae-466c-4576-9d07-70416d3b2081","path":"Environments/bhbj.postman_environment.json","metaData":{}}
+>>>>>>> Stashed changes
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = Folder 1/Specfication
+<<<<<<< Updated upstream
 files[] = {"path":"7MB schema copy 2.json","metaData":{}}
+=======
+>>>>>>> Stashed changes
 
 [relations.apiDefinition.metaData]
 type = openapi:3
