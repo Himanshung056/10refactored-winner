@@ -1,0 +1,19 @@
+{
+	"id": "4127f301-7e7b-45b0-804e-872508b34bd4",
+	"values": [
+		{
+			"key": "gjjhg",
+			"value": "hkjk",
+			"enabled": true
+		},
+		{
+			"key": "jbjkb",
+			"value": "mbh",
+			"enabled": true
+		}
+	],
+	"name": "API Dev Platform Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2020-08-26T11:33:06.005Z",
+	"_postman_exported_using": "Postman/7.31.0-beta200824-0601"
+}

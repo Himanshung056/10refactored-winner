@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "5a0c7c27-e52b-4c7d-992d-f4bdf2a60aeb",
+		"name": "1.0.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/get/1234",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"get",
+						"1234"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "1234",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/get/{{key}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"get",
+								"{{key}}"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "hello"
+				}
+			]
+		},
+		{
+			"name": "get1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/get1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"get1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/get1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"get1"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "bye"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
